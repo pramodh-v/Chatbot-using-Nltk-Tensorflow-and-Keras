@@ -3,7 +3,7 @@ I have created a chatbot from scratch using the nltk,tensorflow and keras librar
 The nltk library is used for incorporating nlp functions whereas the tensorflow and keras libraries are used for building the ANN.
 The Keras-Tuner library is used for tuning and finding the best hyper parameters for the ANN model.
 
-Accuracy in training set – 0.9937
+Accuracy in training set – 0.9937<br>
 The possible patterns and responses are stored in a json file called ‘intents’.
 I made this project completely on google colab as it brings the ease of using GPU’s with it.
 # Use Cases:
