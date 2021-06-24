@@ -1,0 +1,134 @@
+{
+	"intents":[
+		{
+			"tag":"greet",
+			"patterns":["Hi!","Hello!","Good Day"],
+			"responses": ["Hey!","Hello!","Hi There! How may I help you?!"]
+		},
+		{
+			"tag":"howareyou",
+			"patterns":["How are you?","How are you doing?","How you doin'","Hey Peppy,How are You?"],
+			"responses": ["I'm fine! thanks for asking!"]
+		},
+		{
+			"tag":"whoareyou",
+			"patterns":["Who are you?","What is your name?"],
+			"responses": ["I'm Pepper! And I'm an AI Chatbot","My name is Pepper!"]
+		},
+		{
+			"tag":"age",
+			"patterns":["How old are you?","What is your age?"],
+			"responses": ["I'm an AI Chatbot! My Creator is 19 years old!","I'm 19 years old! Thanks for asking."]
+		},
+		{
+			"tag":"creator",
+			"patterns":["Who created you?","Who is your creator?","Who made you?"],
+			"responses": ["I was created by a 19-year-old Engineering Student whose name shall remain unknown.","My creator's name shall remain unknown :)"]
+		},
+		{
+			"tag":"thanks",
+			"patterns":["Thanks!","Thank You!","Thanks A Lot!"],
+			"responses": ["Any Time!!","It's my pleasure","You are welcome!","Always here to help"]
+		},
+		{
+			"tag":"goodbye",
+			"patterns":["Goodbye!","See ya!","Ciao!","Bye"],
+			"responses": ["See you soon :)","Have a nice day!","Ciao! Amigo"]
+		},
+		{
+            "tag": "hours",
+            "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When can I contact you?", "At what time are you working services?","when is the restaurant open?"],
+            "responses": [ "We're open every day from 7AM to 11PM", "Our working hours are 7AM to 11PM every day" ]
+        },
+        {
+            "tag": "location",
+            "patterns": [ "What is your location?", "Where are you located?", "What is your address?", "Where is your company situated?", "How can we contact you ?", "How can I contact you?","Where are you from?"],
+            "responses": [ "Our company is situated in Anna Univ,Chennai", "We work from Anna Univ,Chennai", "Our location is Anna Univ,Chennai"]
+        },
+        {
+            "tag": "payments",
+            "patterns": [ "Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Which credit cards do you accept?" ],
+            "responses": [ "We accept VISA and Mastercard", "We accept most major credit cards" ]
+        },
+        {
+            "tag": "services",
+            "patterns": [ "What are your services?", "What can you do?","What can you provide us?","How can you help us?"],
+            "responses": [ "I can help you book a table at our restaurant and order food" ]
+        },
+        {
+            "tag": "ordertracking",
+            "patterns": ["where is order with id O657?", "track order O458", "Where is my order with id O564?" ],
+            "responses": ["The order is delayed as we couldn't contact the restaurant. Sorry for the inconvinience.","The food is ready and is on the Way!"]
+        },
+        {
+            "tag": "missingid",
+            "patterns": ["where is the order?","where is my order?","locate the order"],
+            "responses": ["Please enter with order ID"]
+        },
+        {
+            "tag": "forgotpassword",
+            "patterns": ["I forgot my Login password?","what to do when someone forgets Login password?","How do I retrieve my login password?","Forgot Password"],
+            "responses": ["Please enter your email id ,we will send a link on your email"]
+        },
+        {
+            "tag": "emailid",
+            "patterns": [ "yyy@gmail.com", "xxx@yahoo.com" ],
+            "responses": [ "Password has been sent to the given e-mail id.Please check your email account.If mail is not found in inbox,then check spam." ]
+        },
+        {
+            "tag": "noans",
+            "patterns": ["why asdgf","how cbxcvb","when rdyujfgh","I pkafdgk","you adfasdfb"],
+            "responses": ["Can't Understand Your Question","please elaborate your question"]
+        },
+        {
+            "tag": "addrestaurant",
+            "patterns": [ "How to add a restaurant?", "Add restaurant to your company" ],
+            "responses": [ "www.restaurantreg.com\nPlease register in the above website!"]
+        },
+        {
+            "tag": "foodissues",
+            "patterns": ["Wrong order delivered","Food's taste is not good.","Food tastes bad"],
+            "responses": ["Please enter order number,Restaurant's name and the delivery person. Specifications shall be sent to user soon!."]
+        },
+        {
+            "tag": "predictdelay",
+            "patterns": ["why is order O564 delayed","Order O564 delayed"],
+            "responses": ["Delay is due to heavy traffic","Delay is due to inavailable components"]
+        },
+        {
+            "tag": "Weather",
+            "patterns": ["what is the weather today in Chennai?","Weather Today in Salem"],
+            "responses": ["It's 36C according to Google Weather"]
+        },
+        {
+            "tag": "booktable",
+            "patterns": [ "I want to book a table", "Book table","How to book a table?"],
+            "responses": [ "Kindly choose your option\n1. Premium - Rs.1000 per table\n2. Semi-Premium - Rs.800 per table\n3. Economic - Rs.600 per table" ]
+        },
+        {
+            "tag": "createuseracc",
+            "patterns": [ "Create user Account", "How to create an user account?", "I want to create an user account" ],
+            "responses": [ "www.createuseracc.com\nKindly provide your details in the above mentioned website" ]
+        },
+        {
+            "tag": "orderdetails",
+            "patterns": [ "Please provide the order details of the order O635", "Order Details O124", "O589 details" ],
+            "responses": [ "www.orderdetails.com\nKindly find the order details in the website below"]
+        },
+        {
+            "tag": "keycustomers",
+            "patterns": ["Our Target customers", "who are your key customers"],
+            "responses": ["Our target customers are in the range of age 20-40"]
+        },
+        {  
+            "tag": "bestsellers",
+            "patterns": ["What is the best selling item today?","Bestseller today","Bestselling item today"],
+            "responses": ["Chappathi with 50% off per set of 2"]
+        },
+        {
+            "tag": "discount",
+            "patterns": [ "Is there an discounts on any products?", "Discounts?"],
+            "responses": [ "Idlis - 20% off per set of 4\nDosas - 15% off per set of 2" ]
+        }
+	]
+}
